@@ -1,0 +1,44 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  color: #00BF32;
+}
+
+a {
+  color: #04819E;
+}
+a:hover {
+  color: #4867D6;
+}
+a:visited {
+  color: #015367;
+}
+
+#header {
+  background-color: #38B2CE;
+  color: #206676;
+}
+
+#header a {
+  color: white;
+}
+#header a:hover {
+  color: #206676;
+}
+
+#footer {
+  background-color: #4867D6;
+}
+
+#footer a {
+  color: #071D70;
+}
+#footer a:hover {
+  color: white;
+}
+
+/* http://colorschemedesigner.com/#3n51Tw0w0w0w0 */

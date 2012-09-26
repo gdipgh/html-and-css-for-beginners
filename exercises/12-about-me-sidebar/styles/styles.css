@@ -1,0 +1,69 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 25px;
+}
+
+
+h2 {
+  color: #00BF32;
+}
+
+a {
+  color: #04819E;
+}
+a:hover {
+  color: #4867D6;
+}
+a:visited {
+  color: #015367;
+}
+
+/* Header */
+#header {
+  background-color: #38B2CE;
+  color: #206676;
+}
+
+#header a {
+  color: white;
+  font-size: 16px;
+}
+#header a:hover {
+  color: #206676;
+}
+
+/* Main */
+#main {
+  width: 70%;
+}
+
+/* Sidebar */
+#sidebar {
+  width: 25%;
+  float: right;
+}
+
+/* Footer */
+#footer {
+  background-color: #4867D6;
+  clear: both;
+}
+
+#footer a {
+  color: #071D70;
+}
+#footer a:hover {
+  color: white;
+}
+

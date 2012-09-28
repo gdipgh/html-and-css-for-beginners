@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clear left example</title>
+    <style>
+div {
+  height: 200px;
+  width: 200px;
+  border: solid 1px black;
+  background-color: red;
+}
+
+.first {
+  float: left;
+}
+.last {
+  float: right;
+  height: 500px;
+}
+
+.below {
+  float: left;
+  clear: left;
+}
+    </style>
+  </head>
+  <body>
+    <div class="first">
+      one
+    </div>
+    <div class="last">
+      two
+    </div>
+    <div class="below">
+      three
+    </div>
+  </body>
+</html>

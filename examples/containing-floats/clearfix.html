@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fixed with Clearfix Method</title>
+    <style>
+body {
+  font-size: 30px;
+  text-align: center;
+}
+
+.parent {
+  /* styling to help visualize functionality */
+  background-color: yellow;
+  border: solid 1px black;
+}
+
+.child {
+  /* styling to help visualize functionality */
+  background-color: red;
+  border: solid 1px black;
+  width: 200px;
+  height: 200px;
+
+  float: left;
+}
+
+/* Clearfix hack */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  }
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+    </style>
+  </head>
+  <body>
+    <div class="parent clearfix">
+      parent
+      <div class="child">
+        child
+      </div>
+    </div>
+  </body>
+</html>

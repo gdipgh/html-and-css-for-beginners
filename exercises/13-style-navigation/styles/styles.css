@@ -22,11 +22,11 @@ h2 {
 a {
   color: #04819E;
 }
-a:hover {
-  color: #4867D6;
-}
 a:visited {
   color: #015367;
+}
+a:hover {
+  color: #4867D6;
 }
 
 /* Clearfix hack */

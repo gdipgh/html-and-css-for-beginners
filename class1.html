@@ -227,6 +227,422 @@
             </code></pre>
         </section>
 
+        <section>
+          <h3>Doctype</h3>
+          <p>Document type declaration</p>
+          <pre><code>
+&lt;!DOCTYPE html&gt;
+          </code></pre>
+
+          <ul>
+            <li>Tells the browser what layout to use</li>
+            <li>It is required</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>HTML tag</h3>
+          <pre><code>
+&lt;html&gt;
+&lt;/html&gt;
+          </code></pre>
+
+          <ul>
+            <li>All other elements go inside here</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>HEAD &amp; title</h3>
+          <p>The <strong>head</strong> contains metadata for the document</p>
+          <pre><code>
+  &lt;head&gt;
+    &lt;title&gt;Hello HTML&lt;/title&gt;
+  &lt;/head&gt;
+          </code></pre>
+          <p>The <strong>title</strong> defines the title of the document</p>
+        </section>
+
+        <section>
+          <h3>Body</h3>
+          <p>The main content of the document</p>
+          <pre><code>
+&lt;body&gt;
+&lt;/body&gt;
+          </code></pre>
+        </section>
+
+        <section>
+          <h3>anatomy of the HTML Tag</h3>
+          <pre><code>
+&lt;element artibute="value"&gt;content&lt;/element&gt;
+          </code></pre>
+        </section>
+
+        <section>
+          <h3>Start/open tag</h3>
+          <pre><code>
+<strong>&lt;element</strong> artibute="value"<strong>&gt;</strong>content&lt;/element&gt;
+          </code></pre>
+        </section>
+
+        <section>
+          <h3>End/close Tag</h3>
+          <pre><code>
+&lt;element artibute="value"&gt;content<strong>&lt;/element&gt;</strong>
+          </code></pre>
+        </section>
+
+        <section>
+          <h3>Attributes</h3>
+          <pre><code>
+&lt;element <strong>artibute="value"</strong>&gt;content&lt;/element&gt;
+          </code></pre>
+        </section>
+
+        <section>
+          <h3>Content</h3>
+          <pre><code>
+&lt;element artibute="value"&gt;<strong>content</strong>&lt;/element&gt;
+          </code></pre>
+        </section>
+
+        <section>
+          <h3>element</h3>
+          <pre><code>
+<strong>&lt;element artibute="value"&gt;content&lt;/element&gt;</strong>
+          </code></pre>
+        </section>
+
+        <section>
+          <!-- TODO: Update the next to sections to be side by side, non-centered p tags -->
+          <h3>paragraphs</h3>
+          <pre><code>
+&lt;p&gt;
+  This is the first paragraph!
+&lt;/p&gt;
+&lt;p&gt;
+  This is the second paragraph!
+&lt;/p&gt;
+          </code></pre>
+          <p>This is the first paragraph!</p>
+          <p>This is the second paragraph!</p>
+        </section>
+
+        <section>
+          <h3>Line breaks</h3>
+          <pre><code>
+&lt;p&gt;
+  The White House<strong>&lt;br&gt;</strong>
+  1600 Pennsylvania Ave.<strong>&lt;br&gt;</strong>
+  Washington, DC 20500
+&lt;/p&gt;
+&lt;p&gt;
+  old pond...<strong>&lt;br&gt;</strong>
+  a frog leaps in<strong>&lt;br&gt;</strong>
+  water’s sound
+&lt;/p&gt;
+          </code></pre>
+          <p>
+            The White House<br>
+            1600 Pennsylvania Ave.<br>
+            Washington, DC 20500
+          </p>
+          <p>
+            old pond...<br>
+            a frog leaps in<br>
+            water's sound
+          </p>
+        </section>
+
+        <section>
+          <h3>activity: Hello world!</h3>
+          <ol>
+            <li>Go to your text editor</li>
+            <li>Create <em>index.html</em> in project directory</li>
+            <li>Open in browser</li>
+            <li>Create basic page with Hello World!</li>
+            <li>Change the title to indicate this is your home page</li>
+            <li>Inspect the page using the developer tools</li>
+          </ol>
+        </section>
+
+        <section>
+          <h3>Basic HTML Page</h3>
+            <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Hello World&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;Hello World!&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+            </code></pre>
+        </section>
+
+        <section>
+          <!-- TODO: add screenshot of html in text editor -->
+        </section>
+
+        <section>
+          <!-- TODO: add screenshot of page in browser -->
+        </section>
+
+        <section>
+          <!-- TODO: add screenshot of inspecting the page -->
+        </section>
+
+        <section>
+          <h3>div</h3>
+          <p>Generic container for content</p>
+          <pre><code>
+&lt;div&gt;
+  header content goes here
+&lt;/div&gt;
+&lt;div&gt;
+  main content goes here
+&lt;/div&gt;
+          </code></pre>
+          <ul>
+            <li>Block element</li>
+            <li>Usually good for structuring page content</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>span</h3>
+          <p>Generic container for content</p>
+          <pre><code>
+&lt;p&gt;
+  See Spot &lt;span&gt;run&lt;/span&gt;!
+&lt;/p&gt;
+          </code></pre>
+          <ul>
+            <li>Inline element</li>
+            <li>Usually good for styling text</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>block</h3>
+          <pre><code>
+&lt;div&gt;This&lt;/div&gt;, &lt;div&gt;that&lt;/div&gt;, and the &lt;div&gt;other&lt;/div&gt;
+          </code></pre>
+
+          <div>This</div>, <div>that</div>, and the <div>other</div>
+        </section>
+
+        <section>
+          <h3>inline</h3>
+          <pre><code>
+&lt;span&gt;This&lt;/span&gt;, &lt;span&gt;that&lt;/span&gt;, and the &lt;span&gt;other&lt;/span&gt;
+          </code></pre>
+          <p>
+            <span>This</span>, <span>that</span>, and the <span>other</span>
+          </p>
+        </section>
+
+        <section>
+          <h3>EM &amp; Strong</h3>
+          <p>Inline elements for marking text</p>
+          <pre><code>
+&lt;p&gt;em is used to &lt;em&gt;stress emphasis&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;strong is used to give &lt;strong&gt;strong importance&lt;/strong&gt;.&lt;/p&gt;
+          </code></pre>
+          <ul>
+            <li>em is used to <em>stress emphasis</em></li>
+            <li>strong is used give <strong>strong importance</strong></li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Headings</h3>
+          <!-- TODO: side by side -->
+          <pre><code>
+&lt;h1&gt;one&lt;/h1&gt;
+&lt;h2&gt;two&lt;/h2&gt;
+&lt;h3&gt;three&lt;/h3&gt;
+&lt;h4&gt;four&lt;/h4&gt;
+&lt;h5&gt;five&lt;/h5&gt;
+&lt;h6&gt;six&lt;/h6&gt;
+          </pre></code>
+          <h1>one</h1>
+          <h2>two</h2>
+          <h3>three</h3>
+          <h4>four</h4>
+          <h5>five</h5>
+          <h6>six</h6>
+        </section>
+
+        <section>
+          <h3>anchors/links</h3>
+          <pre><code>
+&lt;a href=&quot;http://girldevelopit.com&quot;&gt;
+  Girl Develop It
+&lt;/a&gt;
+          </code></pre>
+          <p>
+            <a href="http://girldevelopit.com">Girl Develop It</a>
+          </p>
+        </section>
+
+        <section>
+          <h3>Images</h3>
+          <pre><code>
+&lt;img src=&quot;kitten.jpg&quot; alt=&quot;kitten&quot;&gt;
+          </code></pre>
+          <!-- TODO: Add kitten and domo-kun -->
+        </section>
+
+        <section>
+          <h3>Images</h3>
+          <pre><code>
+&lt;img src=&quot;kitten.jpg&quot; alt=&quot;kitten&quot;&gt;
+          </code></pre>
+          <p>
+            kitten
+          </p>
+        </section>
+
+        <section>
+          <h3>image links</h3>
+          <pre><code>
+&lt;a href=&quot;http://girldevelopit.com&quot;&gt;
+  &lt;img src=&quot;gdi-logo.png&quot; alt=&quot;Girl Develop It&quot;&gt;
+&lt;/a&gt;
+          </code></pre>
+          <!-- TODO: add example with logo -->
+        </section>
+
+        <section>
+          <h3>Lists</h3>
+          <pre><code>
+&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+  &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+  &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ol&gt;
+          </code></pre>
+          <!-- TODO: fix formatting of both lists - make side by side -->
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+          <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
+        </section>
+
+        <section>
+          <h3>Activity: ul for navigation</h3>
+          <ol>
+            <li>Go to <a href="http://www.girldevelopit.com">http://www.girldevelopit.com</a></li>
+            <li>Inspect the navigation using the Chrome Developer Tools</li>
+          </ol>
+        </section>
+
+        <section>
+          <!-- TODO: Add screenshot of inspecting GDI nav -->
+        </section>
+
+        <section>
+          <h3>HTML Comments</h3>
+          <p>Comments are added inside <strong>&lt;!-- --&gt;</strong></p>
+          <pre><code>
+&lt;div&gt;
+    &lt;!-- TODO: write copy for this section --&gt;
+&lt;/div&gt;
+          </code></pre>
+          <ul>
+            <li>Used to leave notes or explain behavior</li>
+            <li>Should be used sparingly</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>HTML references</h3>
+          <ul>
+            <li><a href="http://developer.mozilla.org">Mozilla Developer Network</a></li>
+            <li><a href="http://www.htmldog.com">HTML Dog</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Project requirements</h3>
+          <p><strong>Goal:</strong> Create a personal web site with articles</p>
+        </section>
+
+        <section>
+          <h3>Project requirements</h3>
+          <ul>
+            <li>Who is your audience?</li>
+            <li>Things to include:
+              <ul>
+                <li>Page title (e.g. your name)</li>
+                <li>Navigation - on top and bottom of page</li>
+                <li>An “about me” section</li>
+                <li>Several articles</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Activity: Sketch your site layout</h3>
+          <ol>
+            <li>Sketch your site layout</li>
+            <li>Take notes</li>
+            <li>Think about:
+              <ol style="list-style-type: lower-latin;">
+                <li>Content areas</li>
+                <li>Information hierarchy</li>
+                <li>Purpose and audience</li>
+              </ol>
+            </li>
+          </ol>
+        </section>
+
+        <section>
+          <!-- TODO: add image of layout sketch -->
+        </section>
+
+        <section>
+          <h3><a href="http://www.lipsum.com/">Lorem Ipsum</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque felis at dolor sollicitudin pellentesque. Donec adipiscing posuere pharetra.</p>
+          <!-- TODO: Add screenshot of lipsum -->
+        </section>
+
+        <section>
+          <h3><a href="http://cupcakeipsum.com/">Cupcake Ipsum</a></h3>
+          <p>Cake carrot cake wypas faworki carrot cake gummi bears cupcake wafer brownie. Pudding gummies cotton candy jelly. Pudding gummies croissant wypas</p>
+          <!-- TODO: Add screenshot of cupcake ipsum -->
+        </section>
+
+        <section>
+          <h3>Activity: HTML site layout</h3>
+          <ol>
+            <li>Build on <em>index.html</em></li>
+            <li>Reference your sketch</li>
+            <li>Use the filler text of your choice to mock content</li>
+            <li>Add real content when you are ready</li>
+            <li>Use HTML references (Mozilla Developer Network)</li>
+          </ol>
+        </section>
+
+        <section>
+          <!-- TODO: Add screenshot of in progress site -->
+        </section>
+
       </div>
       <footer>
         <div class="copyright">
@@ -234,6 +650,7 @@
           <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
         </div>
       </footer>
+
     </div>
 
 

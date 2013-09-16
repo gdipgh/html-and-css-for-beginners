@@ -13,11 +13,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
     <link rel="stylesheet" href="reveal/css/reveal.css">
-    <link rel="stylesheet" href="reveal/css/theme/gdidefault.css" id="theme">
+    <link rel="stylesheet" href="reveal/css/theme/gdipagano.css" id="theme">
 
-    <!-- For syntax highlighting -->
-    <!-- light editor<link rel="stylesheet" href="lib/css/light.css">-->
-    <!-- dark editor--><link rel="stylesheet" href="reveal/lib/css/dark.css">
+    <link rel="stylesheet" href="reveal/lib/css/light.css">
 
     <!-- If use the PDF print sheet so students can print slides-->
 
@@ -26,6 +24,12 @@
     <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
+    <style type="text/css">
+      .reveal pre {
+        font-size: 0.8em;
+        border-radius: 1em;
+      }
+    </style>
   </head>
 
   <body>
@@ -35,20 +39,20 @@
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
         <section>
-          <h3>Class materials</h3>
+          <h2>Class materials</h2>
           <p><a href="http://gdipgh.github.io/html-and-css-for-beginners">http://gdipgh.github.io/html-and-css-for-beginners</a></p>
         </section>
 
         <!-- Opening slide -->
         <section>
-          <img src = "images/gdi_logo_badge.png">
-          <h3>Beginning HTML and CSS</h3>
-          <h4>Class 1</h4>
+          <img src ="images/gdi_logo_badge.png" style="width:50%">
+          <h2>Beginning HTML and CSS</h2>
+          <h3>Class 1</h3>
         </section>
 
         <!-- Welcome-->
         <section>
-          <h3>Welcome!</h3>
+          <h2>Welcome!</h2>
           <div class = "left-align">
           <p>Girl Develop It is here to provide affordable and accessible programs to learn software through mentorship and hands-on instruction.</p>
           <p class ="green">Some "rules"</p>
@@ -62,7 +66,7 @@
         </section>
 
         <section>
-          <h3>Welcome!</h3>
+          <h2>Welcome!</h2>
           <div class = "left-align">
           <p class = "blue">Tell us about yourself.</p>
           <ul>
@@ -73,7 +77,7 @@
         </section>
 
         <section>
-          <h3>Goals for the class</h3>
+          <h2>Goals for the class</h2>
           <ul>
             <li><strong>Week 1: Intro to HTML</strong></li>
             <li>Week 2: Intro to CSS</li>
@@ -83,7 +87,7 @@
         </section>
 
         <section>
-          <h3>Goals for today</h3>
+          <h2>Goals for today</h2>
           <ul>
             <li>Introduction to web development</li>
             <li>Introduction to HTML</li>
@@ -91,13 +95,13 @@
         </section>
 
         <section>
-          <h3>Terms</h3>
-          <p><strong>Web design</strong> - The process of planning, structuring and creating a website.</p>
-          <p><strong>Web development</strong> - The process of programming dynamic web applications.</p>
+          <h2>Terms</h2>
+          <p class="left-align"><strong>Web design</strong> - The process of planning, structuring and creating a website.</p>
+          <p class="left-align"><strong>Web development</strong> - The process of programming dynamic web applications.</p>
         </section>
 
         <section>
-          <h3>World wide web consortium</h3>
+          <h2>World wide web consortium</h2>
           <!-- TODO: Add W3C logo -->
           <ul>
             <li>Main international standards organization for the web</li>
@@ -106,35 +110,35 @@
         </section>
 
         <section>
-            <h3>HTML</h3>
+            <h2>HTML</h2>
         </section>
 
         <section>
-          <p><strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage</p>
+          <p style="font-size:3em"><strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage</p>
         </section>
 
         <section>
-          <h3>markup language</h3>
+          <h2>markup language</h2>
           <p>Describes how to structure and display the content of a document</p>
         </section>
 
         <section>
-          <h3>CSS</h3>
+          <h2>CSS</h2>
         </section>
 
         <section>
-          <p><strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heets</p>
+          <p style="font-size:3em"><strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heets</p>
         </section>
 
         <section>
-          <h3>CSS</h3>
+          <h2>CSS</h2>
           <p>Presentation and styling of the document</p>
         </section>
 
         <section>
           <!-- TODO: Maybe replace this with divs that line up so it looks cleaner like orig slides -->
-          <h3>HTML + CSS</h3>
-          <h3>Structure + Style</h3>
+          <h2>HTML + CSS</h2>
+          <h2>Structure + Style</h2>
         </section>
 
         <section>
@@ -143,7 +147,7 @@
         </section>
 
         <section>
-          <h3>Browser</h3>
+          <h2>Browser</h2>
           <ul>
             <li>Program that renders content, including HTML &amp; CSS, on the web</li>
             <li>Allows users to view and interact with web sites</li>
@@ -151,7 +155,7 @@
         </section>
 
         <section>
-          <h3>major Browsers</h3>
+          <h2>major Browsers</h2>
           <!-- TODO: add images, maybe a bulleted list style with no bullets? -->
           <ul>
             <li>Chrome</li>
@@ -163,17 +167,17 @@
         </section>
 
         <section>
-          <h3>Google Chrome</h3>
+          <h2>Google Chrome</h2>
           <!-- TODO: Add chrome logo -->
         </section>
 
         <section>
-          <h3>Chrome developer tools</h3>
+          <h2>Chrome developer tools</h2>
           <p>A toolkit that helps web developers build and debug web sites in Chrome</p>
         </section>
 
         <section data-state="activity">
-          <h3>activity: tool check!</h3>
+          <h2>activity: tool check!</h2>
           <ol>
             <li>Open Chrome</li>
             <li>Go to <a href="http://www.girldevelopit.com">http://www.girldevelopit.com</a></li>
@@ -186,7 +190,7 @@
         </section>
 
         <section>
-          <h3>Text Editor</h3>
+          <h2>Text Editor</h2>
           <ul>
             <li>Program for editing a text-based files</li>
             <li>HTML (.html) &amp; CSS (.css) files are text- based</li>
@@ -195,12 +199,12 @@
         </section>
 
         <section>
-          <h3>Sublime Text</h3>
+          <h2>Sublime Text</h2>
           <!-- TODO: Add Sublime Text Logo -->
         </section>
 
         <section data-state="activity">
-          <h3>activity: tool check!</h3>
+          <h2>activity: tool check!</h2>
           <ol>
             <li>Create a working directory (folder) for your project</li>
             <li>Open Sublime Text</li>
@@ -213,7 +217,7 @@
         </section>
 
         <section>
-          <h3>Basic HTML Page</h3>
+          <h2>Basic HTML Page</h2>
             <pre><code>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -228,7 +232,7 @@
         </section>
 
         <section>
-          <h3>Doctype</h3>
+          <h2>Doctype</h2>
           <p>Document type declaration</p>
           <pre><code>
 &lt;!DOCTYPE html&gt;
@@ -241,7 +245,7 @@
         </section>
 
         <section>
-          <h3>HTML tag</h3>
+          <h2>HTML tag</h2>
           <pre><code>
 &lt;html&gt;
 &lt;/html&gt;
@@ -253,7 +257,7 @@
         </section>
 
         <section>
-          <h3>HEAD &amp; title</h3>
+          <h2>HEAD &amp; title</h2>
           <p>The <strong>head</strong> contains metadata for the document</p>
           <pre><code>
   &lt;head&gt;
@@ -264,7 +268,7 @@
         </section>
 
         <section>
-          <h3>Body</h3>
+          <h2>Body</h2>
           <p>The main content of the document</p>
           <pre><code>
 &lt;body&gt;
@@ -273,42 +277,42 @@
         </section>
 
         <section>
-          <h3>anatomy of the HTML Tag</h3>
+          <h2>anatomy of the HTML Tag</h2>
           <pre><code>
 &lt;element artibute="value"&gt;content&lt;/element&gt;
           </code></pre>
         </section>
 
         <section>
-          <h3>Start/open tag</h3>
+          <h2>Start/open tag</h2>
           <pre><code>
 <strong>&lt;element</strong> artibute="value"<strong>&gt;</strong>content&lt;/element&gt;
           </code></pre>
         </section>
 
         <section>
-          <h3>End/close Tag</h3>
+          <h2>End/close Tag</h2>
           <pre><code>
 &lt;element artibute="value"&gt;content<strong>&lt;/element&gt;</strong>
           </code></pre>
         </section>
 
         <section>
-          <h3>Attributes</h3>
+          <h2>Attributes</h2>
           <pre><code>
 &lt;element <strong>artibute="value"</strong>&gt;content&lt;/element&gt;
           </code></pre>
         </section>
 
         <section>
-          <h3>Content</h3>
+          <h2>Content</h2>
           <pre><code>
 &lt;element artibute="value"&gt;<strong>content</strong>&lt;/element&gt;
           </code></pre>
         </section>
 
         <section>
-          <h3>element</h3>
+          <h2>element</h2>
           <pre><code>
 <strong>&lt;element artibute="value"&gt;content&lt;/element&gt;</strong>
           </code></pre>
@@ -316,7 +320,7 @@
 
         <section>
           <!-- TODO: Update the next to sections to be side by side, non-centered p tags -->
-          <h3>paragraphs</h3>
+          <h2>paragraphs</h2>
           <pre><code>
 &lt;p&gt;
   This is the first paragraph!
@@ -330,7 +334,7 @@
         </section>
 
         <section>
-          <h3>Line breaks</h3>
+          <h2>Line breaks</h2>
           <pre><code>
 &lt;p&gt;
   The White House<strong>&lt;br&gt;</strong>
@@ -356,7 +360,7 @@
         </section>
 
         <section data-state="activity">
-          <h3>activity: Hello world!</h3>
+          <h2>activity: Hello world!</h2>
           <ol>
             <li>Go to your text editor</li>
             <li>Create <em>index.html</em> in project directory</li>
@@ -368,7 +372,7 @@
         </section>
 
         <section>
-          <h3>Basic HTML Page</h3>
+          <h2>Basic HTML Page</h2>
             <pre><code>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -395,7 +399,7 @@
         </section>
 
         <section>
-          <h3>div</h3>
+          <h2>div</h2>
           <p>Generic container for content</p>
           <pre><code>
 &lt;div&gt;
@@ -412,7 +416,7 @@
         </section>
 
         <section>
-          <h3>span</h3>
+          <h2>span</h2>
           <p>Generic container for content</p>
           <pre><code>
 &lt;p&gt;
@@ -426,7 +430,7 @@
         </section>
 
         <section>
-          <h3>block</h3>
+          <h2>block</h2>
           <pre><code>
 &lt;div&gt;This&lt;/div&gt;, &lt;div&gt;that&lt;/div&gt;, and the &lt;div&gt;other&lt;/div&gt;
           </code></pre>
@@ -435,7 +439,7 @@
         </section>
 
         <section>
-          <h3>inline</h3>
+          <h2>inline</h2>
           <pre><code>
 &lt;span&gt;This&lt;/span&gt;, &lt;span&gt;that&lt;/span&gt;, and the &lt;span&gt;other&lt;/span&gt;
           </code></pre>
@@ -445,7 +449,7 @@
         </section>
 
         <section>
-          <h3>EM &amp; Strong</h3>
+          <h2>EM &amp; Strong</h2>
           <p>Inline elements for marking text</p>
           <pre><code>
 &lt;p&gt;em is used to &lt;em&gt;stress emphasis&lt;/em&gt;.&lt;/p&gt;
@@ -458,26 +462,26 @@
         </section>
 
         <section>
-          <h3>Headings</h3>
+          <h2>Headings</h2>
           <!-- TODO: side by side -->
           <pre><code>
 &lt;h1&gt;one&lt;/h1&gt;
 &lt;h2&gt;two&lt;/h2&gt;
-&lt;h3&gt;three&lt;/h3&gt;
+&lt;h2&gt;three&lt;/h2&gt;
 &lt;h4&gt;four&lt;/h4&gt;
 &lt;h5&gt;five&lt;/h5&gt;
 &lt;h6&gt;six&lt;/h6&gt;
           </pre></code>
           <h1>one</h1>
           <h2>two</h2>
-          <h3>three</h3>
+          <h2>three</h2>
           <h4>four</h4>
           <h5>five</h5>
           <h6>six</h6>
         </section>
 
         <section>
-          <h3>anchors/links</h3>
+          <h2>anchors/links</h2>
           <pre><code>
 &lt;a href=&quot;http://girldevelopit.com&quot;&gt;
   Girl Develop It
@@ -489,7 +493,7 @@
         </section>
 
         <section>
-          <h3>Images</h3>
+          <h2>Images</h2>
           <pre><code>
 &lt;img src=&quot;kitten.jpg&quot; alt=&quot;kitten&quot;&gt;
           </code></pre>
@@ -497,7 +501,7 @@
         </section>
 
         <section>
-          <h3>Images</h3>
+          <h2>Images</h2>
           <pre><code>
 &lt;img src=&quot;kitten.jpg&quot; alt=&quot;kitten&quot;&gt;
           </code></pre>
@@ -507,7 +511,7 @@
         </section>
 
         <section>
-          <h3>image links</h3>
+          <h2>image links</h2>
           <pre><code>
 &lt;a href=&quot;http://girldevelopit.com&quot;&gt;
   &lt;img src=&quot;gdi-logo.png&quot; alt=&quot;Girl Develop It&quot;&gt;
@@ -517,7 +521,7 @@
         </section>
 
         <section>
-          <h3>Lists</h3>
+          <h2>Lists</h2>
           <pre><code>
 &lt;ul&gt;
   &lt;li&gt;Item 1&lt;/li&gt;
@@ -544,7 +548,7 @@
         </section>
 
         <section data-state="activity">
-          <h3>Activity: ul for navigation</h3>
+          <h2>Activity: ul for navigation</h2>
           <ol>
             <li>Go to <a href="http://www.girldevelopit.com">http://www.girldevelopit.com</a></li>
             <li>Inspect the navigation using the Chrome Developer Tools</li>
@@ -556,7 +560,7 @@
         </section>
 
         <section>
-          <h3>HTML Comments</h3>
+          <h2>HTML Comments</h2>
           <p>Comments are added inside <strong>&lt;!-- --&gt;</strong></p>
           <pre><code>
 &lt;div&gt;
@@ -570,7 +574,7 @@
         </section>
 
         <section>
-          <h3>HTML references</h3>
+          <h2>HTML references</h2>
           <ul>
             <li><a href="http://developer.mozilla.org">Mozilla Developer Network</a></li>
             <li><a href="http://www.htmldog.com">HTML Dog</a></li>
@@ -578,12 +582,12 @@
         </section>
 
         <section>
-          <h3>Project requirements</h3>
+          <h2>Project requirements</h2>
           <p><strong>Goal:</strong> Create a personal web site with articles</p>
         </section>
 
         <section>
-          <h3>Project requirements</h3>
+          <h2>Project requirements</h2>
           <ul>
             <li>Who is your audience?</li>
             <li>Things to include:
@@ -598,7 +602,7 @@
         </section>
 
         <section data-state="activity">
-          <h3>Activity: Sketch your site layout</h3>
+          <h2>Activity: Sketch your site layout</h2>
           <ol>
             <li>Sketch your site layout</li>
             <li>Take notes</li>
@@ -617,19 +621,19 @@
         </section>
 
         <section>
-          <h3><a href="http://www.lipsum.com/">Lorem Ipsum</a></h3>
+          <h2><a href="http://www.lipsum.com/">Lorem Ipsum</a></h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque felis at dolor sollicitudin pellentesque. Donec adipiscing posuere pharetra.</p>
           <!-- TODO: Add screenshot of lipsum -->
         </section>
 
         <section>
-          <h3><a href="http://cupcakeipsum.com/">Cupcake Ipsum</a></h3>
+          <h2><a href="http://cupcakeipsum.com/">Cupcake Ipsum</a></h2>
           <p>Cake carrot cake wypas faworki carrot cake gummi bears cupcake wafer brownie. Pudding gummies cotton candy jelly. Pudding gummies croissant wypas</p>
           <!-- TODO: Add screenshot of cupcake ipsum -->
         </section>
 
         <section data-state="activity">
-          <h3>Activity: HTML site layout</h3>
+          <h2>Activity: HTML site layout</h2>
           <ol>
             <li>Build on <em>index.html</em></li>
             <li>Reference your sketch</li>
